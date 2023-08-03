@@ -29,6 +29,10 @@ body{
   display: block;
 }
 
+.flash-message{
+  color: green;
+}
+
 h1{
   margin: 0.6em 0;
 }
@@ -52,7 +56,7 @@ thead{
 
 th{
   display: table-cell;
-  padding: 1px 1px 5px 1px;
+  padding: 1px 1px 5px;
 }
 
 td{
@@ -63,6 +67,18 @@ h2{
   margin: 0.8em 0;
 }
 
+input[type="text"]{
+  padding: 1px 2px;
+}
+
+textarea{
+  padding: 2px;
+}
+
+input[type="submit"]{
+  padding: 1px 6px;
+}
+
 .field{
   margin-bottom: 10px;
 }
@@ -71,11 +87,6 @@ h2{
   margin-bottom: 10px;
 }
 
-input{
-  padding: 1px 2px;
-  text-align: center;
-  cursor: default;
-}
 
 a {
   color: #000;
@@ -88,4 +99,44 @@ a:visited {
 a:hover {
   color: #fff;
   background-color: #000;
+}
+
+@media screan and (max-width: 979px){
+  body {
+    font-size: 1.32653061vw;
+    line-height: 1.83673469vw;
+    margin: 3.36734694vw;
+  }
+
+  p{
+    margin: 3.36734694vw;
+  }
+  
+  th{
+    padding: 0.10204082vw 0.10204082vw 0.51020408vw;
+  }
+  
+  td{
+    padding: 0.10204082vw 0.51020408vw 0.71428571vw;
+  }
+  
+  input[type="text"]{
+    padding: 0.10204082vw 0.20408163vw;
+  }
+
+  textarea{
+    padding: 0.20408163vw;
+  }
+
+  input[type="submit"]{
+    padding: 0.10204082vw 0.6122449vw;
+  }
+
+  .field{
+    margin-bottom: 1.02040816vw;
+  }
+
+  .submit{
+    margin-bottom: 1.02040816vw;
+  }
 }
