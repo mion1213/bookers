@@ -15,9 +15,10 @@
  */
 
 *{
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  color: #333;
 }
 
 body{
@@ -72,5 +73,19 @@ h2{
 
 input{
   padding: 1px 2px;
+  text-align: center;
+  cursor: default;
 }
 
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
