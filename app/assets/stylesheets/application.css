@@ -101,7 +101,7 @@ a:hover {
   background-color: #000;
 }
 
-@media (max-width: 979px){
+@media screen and (max-width: 979px){
   body {
     font-size: 1.32653061vw;
     line-height: 1.83673469vw;
